@@ -213,14 +213,30 @@ footer {
   letter-spacing: 1px;
 }
 
-footer a {
+.socials a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: color 0.3s;
+}
+
+.socials a i {
+  margin-right: 0.3rem;
+  color: #f06292;
+}
+
+.socials a:hover {
+  color: #ba68c8;
+}
+
+/* footer a {
   color: #fff;
   text-decoration: none;
 }
 
 footer a:hover {
   color: #f06292;
-}
+} */
 
 /* Responsive design */
 @media (max-width: 768px) {
